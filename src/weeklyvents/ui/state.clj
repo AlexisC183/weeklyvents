@@ -1,0 +1,18 @@
+(ns weeklyvents.ui.state
+  (:require [weeklyvents.ui.reusable :refer [wrapper-text-area]])
+  (:import [javax.swing JLabel]))
+
+; BEGIN controls UI
+
+(def event-name-field (wrapper-text-area))
+(def elapsed-time-field (wrapper-text-area))
+
+; END controls UI
+
+; BEGIN output UI
+
+; MUTATED AT weeklyvents.runnables$read-on-loop
+(def output-label (doto (new JLabel)
+                        (. setVerticalAlignment JLabel/TOP)))
+
+; END output UI
