@@ -4,7 +4,12 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo Hola, mundo'
+                sh 'echo ***** COMPILANDO PROYECTO *****'
+                sh 'lein compile :all'
+                sh 'echo ***** FIN COMPILACIÓN *****'
+                sh 'echo ***** COMIENZO ANÁLISIS ESTÁTICO *****'
+                sh 'clj-kondo --lint .'
+                sh 'echo ***** FIN ANÁLISIS ESTÁTICO *****'
             }
         }
     }
