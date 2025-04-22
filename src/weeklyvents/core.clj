@@ -7,5 +7,5 @@
   (main-frame))
 
 (defn dame-uno
-  []
+  [parametro-sin-usar]
   1)
