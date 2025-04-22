@@ -37,7 +37,7 @@
                                            (event-to-serialized-string)) \newline))))))))
 
 
-(defn read
+(defn read_
   [e]
   (let [events-file (file "events.txt")]
     (if (. events-file exists)

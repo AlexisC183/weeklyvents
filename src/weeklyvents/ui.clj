@@ -12,7 +12,7 @@
 (defn refresh-output-button
   []
   (doto (new JButton (surround-with-html "Refresh output"))
-    (. addActionListener (new ActionEventConsumer read-events-file))))
+    (. addActionListener (new ActionEventConsumer read_))))
 
 (defn field-label
   [text]
@@ -62,5 +62,5 @@
     (. setLayout (new GridLayout 0 2))
     (. add (controls))
     (. add (output))
-    (. addWindowListener (new WindowOpenedConsumer read-events-file))
+    (. addWindowListener (new WindowOpenedConsumer read_))
     (. setVisible true)))
