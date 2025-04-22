@@ -14,9 +14,9 @@ jobs:
 
       - name: Instalando clj-kondo
         run: |
-          curl -sLO https://github.com/clj-kondo/clj-kondo/releases/latest/download/clj-kondo-linux-amd64.zip
-          unzip clj-kondo-linux-amd64.zip
-          sudo mv clj-kondo /usr/local/bin/
+          curl -sLO https://raw.githubusercontent.com/clj-kondo/clj-kondo/master/script/install-clj-kondo
+          chmod +x install-clj-kondo
+          ./install-clj-kondo
 
       - name: Analisis estatico
         run: clj-kondo --lint src
