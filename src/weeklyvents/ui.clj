@@ -8,6 +8,11 @@
 
 ; BEGIN controls UI
 
+(defn refresh-output-button
+  []
+  (doto (new JButton (surround-with-html "Refresh output"))
+    (. addActionListener (new ActionEventConsumer read-events-file))))
+
 (defn field-label
   [text]
   (doto (new JLabel (surround-with-html text))
@@ -23,6 +28,7 @@
   []
   (doto (new JPanel)
     (. setLayout (new GridLayout 0 1))
+    (. add (refresh-output-button))
     (. add (field-label "Event name:"))
     (. add (auto-vertical-scroll-pane event-name-field))
     (. add (field-label "Elapsed time from beginning (mm:ss format):"))
@@ -49,5 +55,5 @@
     (. setLayout (new GridLayout 0 2))
     (. add (controls))
     (. add (output))
-    (. addWindowListener (new WindowOpenedConsumer start-reading-loop))
+    (. addWindowListener (new WindowOpenedConsumer read-events-file))
     (. setVisible true)))
