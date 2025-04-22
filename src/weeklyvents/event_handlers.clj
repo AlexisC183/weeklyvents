@@ -37,7 +37,7 @@
                                            (event-to-serialized-string)) \newline))))))))
 
 
-(defn read-events-file
+(defn read
   [e]
   (let [events-file (file "events.txt")]
     (if (. events-file exists)
@@ -66,3 +66,14 @@
                                             (surround-with-html))))))
           (catch Exception e (. output-label (setText (surround-with-html "events.txt may be corrupted"))))))
       (. events-file createNewFile))))
+
+(defn read-events-file
+  [e]
+  (with-open [reader_ (reader (file "events.txt"))]
+    (. events-file-field (setText (->> (lines reader_)
+                                       (reduce #(str %1 %2 \newline) ""))))))
+
+(defn update-events-file
+  [e]
+  (with-open [writer_ (writer (file "events.txt"))]
+    (. writer_ (write (. events-file-field getText)))))

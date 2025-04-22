@@ -16,3 +16,11 @@
                         (. setVerticalAlignment JLabel/TOP)))
 
 ; END output UI
+
+
+; BEGIN events-file-ui state
+
+; MUTATED AT weeklyvents.event-handlers$read-events-file
+(def events-file-field (wrapper-text-area))
+
+; END events-file-ui state
