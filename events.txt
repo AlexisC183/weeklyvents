@@ -1,0 +1,160 @@
+18:48:30¦Tamalero in¦FRIDAY
+08:28:53¦Tamales in¦SATURDAY
+09:48:02¦Tortillas in¦SATURDAY
+14:44:33¦Tortillas in¦SATURDAY
+17:11:27¦Panadería La Torre in¦SUNDAY
+10:30:54¦Tortillas in¦MONDAY
+09:38:27¦Tortillas in¦TUESDAY
+12:18:49¦Tortillas in¦TUESDAY
+15:08:34¦Tortillas in¦TUESDAY
+18:10:12¦Tamalero in¦TUESDAY
+07:47:30¦GC in¦THURSDAY
+08:52:09¦Tortillas in¦THURSDAY
+12:12:10¦Tortillas in¦THURSDAY
+15:51:53¦Tortillas in¦THURSDAY
+18:46:26¦Tamalero in¦THURSDAY
+08:56:43¦Tortillas in¦FRIDAY
+09:15:35¦Tamales in¦FRIDAY
+11:43:50¦Tortillas in¦FRIDAY
+08:32:22¦Tamales in¦SATURDAY
+13:40:27¦Tortillas in¦SATURDAY
+14:26:19¦Tortillas in ¦SATURDAY
+10:01:03¦Tortillas in¦SUNDAY
+14:15:08¦Tortillas in¦SUNDAY
+17:18:32¦Panadería La Torre in¦SUNDAY
+07:42:45¦Tortillas in¦MONDAY
+09:52:51¦Tamales in¦MONDAY
+10:15:33¦Tortillas in¦MONDAY
+13:55:49¦Tortillas in¦MONDAY
+20:02:08¦Tamalero in¦MONDAY
+09:39:23¦Tortillas in¦TUESDAY
+18:31:42¦QC is alone (!)¦TUESDAY
+18:52:52¦Cleaning employee at QC (!)¦TUESDAY
+19:29:58¦QC is alone (!)¦TUESDAY
+19:45:47¦Guy like Master Silva at QC (!)¦TUESDAY
+10:28:32¦Tortillas in¦WEDNESDAY
+19:49:41¦Tamalero in¦WEDNESDAY
+07:10:09¦GC in¦THURSDAY
+09:56:05¦Tortillas in¦THURSDAY
+12:18:06¦Tortillas in¦THURSDAY
+13:30:01¦91L2 is alright (!)¦THURSDAY
+19:29:25¦Tamalero in¦THURSDAY
+09:11:14¦Tortillas in¦FRIDAY
+11:02:48¦Tortillas in¦FRIDAY
+13:30:10¦303 is alone, with little noise (!)¦FRIDAY
+19:27:46¦Tamalero in¦FRIDAY
+08:37:10¦Tamales in¦SATURDAY
+09:09:34¦Tortillas in¦SATURDAY
+11:02:00¦Tortillas in¦SATURDAY
+12:06:15¦Coco in¦SATURDAY
+14:14:34¦Tortillas in¦SATURDAY
+16:03:16¦Tortillas in¦SATURDAY
+14:29:15¦Tortillas in¦SUNDAY
+17:28:22¦Tortillas in¦SUNDAY
+17:45:46¦Panadería La Torre in¦SUNDAY
+09:25:41¦Tortillas in¦MONDAY
+13:19:43¦Sweeping at library¦MONDAY
+14:33:38¦Unavailable bathroom 9300¦MONDAY
+19:50:21¦Unavailable bathroom 9300¦MONDAY
+10:13:42¦Tortillas in¦TUESDAY
+18:30:01¦9305 is alone (!)¦TUESDAY
+19:13:38¦Cleaning employee at 9305¦TUESDAY
+19:30:14¦9305 is alone (!)¦TUESDAY
+09:46:42¦Cleaning employee at library¦WEDNESDAY
+12:36:05¦Unavailable bathroom 9300¦WEDNESDAY
+07:19:22¦GC in¦THURSDAY
+10:17:32¦Tortillas in¦THURSDAY
+13:07:49¦Cleaning employee at 91L1¦THURSDAY
+19:01:15¦Unavailable bathroom 9300¦THURSDAY
+08:34:57¦Tamales in¦FRIDAY
+11:30:23¦104 is alone (!)¦FRIDAY
+11:27:30¦Cleaning employee outside of 104¦FRIDAY
+11:50:45¦Baja Gas near 104¦FRIDAY
+12:14:54¦Cleaning employee at 104¦FRIDAY
+12:30:01¦104 is alone (!)¦FRIDAY
+13:05:35¦Employee at 104¦FRIDAY
+13:30:04¦104 is alone (!)¦FRIDAY
+18:30:02¦91L2 is alone (!)¦FRIDAY
+19:29:34¦91L2 is alone (!)¦FRIDAY
+19:38:59¦Cleaning employee at 91L2¦FRIDAY
+08:30:39¦Tamales in¦SATURDAY
+11:57:02¦Coco in¦SATURDAY
+13:29:05¦Tortillas in¦SATURDAY
+15:10:27¦Tortillas in¦SATURDAY
+19:39:53¦Tamalero in¦SATURDAY
+17:10:29¦Panadería La Torre in¦SUNDAY
+10:30:38¦Tortillas in¦MONDAY
+14:29:45¦QA is alone (!)¦MONDAY
+08:26:41¦Tamales in¦TUESDAY
+10:52:24¦Tortillas in¦TUESDAY
+12:28:35¦Cleaning employee at 305¦WEDNESDAY
+12:30:02¦305 is alone (!)¦WEDNESDAY
+15:57:32¦Cleaning employee at 305¦WEDNESDAY
+15:29:44¦305 is alone (!)¦WEDNESDAY
+07:22:56¦GC in¦THURSDAY
+11:02:05¦Tortillas in¦THURSDAY
+14:48:39¦Unavailable bathroom 9300¦THURSDAY
+19:21:53¦Unavailable bathroom 9300¦THURSDAY
+10:55:01¦Tortillas in¦FRIDAY
+18:30:02¦91L2 is alone (!)¦FRIDAY
+19:30:01¦91L2 is alone (!)¦FRIDAY
+19:33:43¦Cleaning employee at 91L2¦FRIDAY
+08:19:13¦Tamales in¦SATURDAY
+12:52:53¦Tortillas in¦SATURDAY
+13:09:26¦Coco in¦SATURDAY
+14:25:05¦Tortillas in¦SATURDAY
+16:29:16¦Tortillas in¦SATURDAY
+19:22:08¦Tamalero in¦SATURDAY
+17:28:25¦Panadería La Torre in¦SUNDAY
+19:31:48¦Tamalero in¦SUNDAY
+10:35:09¦Tortillas in¦MONDAY
+13:09:19¦Unavailable bathroom 100¦MONDAY
+13:12:12¦Cleaning employee at bathroom 9100¦MONDAY
+13:13:07¦Cleaning employee at 9300¦MONDAY
+17:51:15¦Unavailable bathroom 100¦MONDAY
+11:03:10¦Tortillas in¦WEDNESDAY
+12:56:00¦Tortillas in¦WEDNESDAY
+19:34:26¦Tamalero in¦WEDNESDAY
+07:18:36¦GC in¦THURSDAY
+12:11:32¦Coco in¦THURSDAY
+13:34:02¦Tortillas in¦THURSDAY
+15:20:46¦Tortillas in¦THURSDAY
+17:19:38¦Tortillas in¦THURSDAY
+18:07:14¦Panadería La Torre in¦THURSDAY
+19:15:45¦Tamalero in¦THURSDAY
+10:40:50¦Tortillas in¦FRIDAY
+13:33:51¦Tortillas in¦FRIDAY
+15:58:57¦Tortillas in¦FRIDAY
+17:49:38¦Tortillas in¦FRIDAY
+18:38:48¦Panadería La Torre in¦FRIDAY
+19:12:56¦Tamalero in¦FRIDAY
+10:37:27¦Tortillas in¦SATURDAY
+14:47:03¦Tortillas in¦SATURDAY
+16:30:18¦Tortillas in¦SATURDAY
+17:07:56¦Tortillas in¦SUNDAY
+17:26:40¦Panadería La Torre in¦SUNDAY
+19:35:22¦Tamalero in¦SUNDAY
+11:51:42¦Tortillas in¦MONDAY
+13:40:11¦Tortillas in¦MONDAY
+19:17:00¦Tamalero in¦MONDAY
+14:24:12¦Tortillas in¦TUESDAY
+16:57:21¦Tortillas in¦TUESDAY
+19:07:03¦Tamalero in¦TUESDAY
+11:28:33¦Tortillas in¦WEDNESDAY
+13:45:33¦Tortillas in¦WEDNESDAY
+19:31:00¦Tamalero in¦WEDNESDAY
+12:30:38¦Tortillas in¦THURSDAY
+14:30:38¦Tortillas in¦THURSDAY
+16:22:19¦Tortillas in¦THURSDAY
+10:41:13¦Coco in¦FRIDAY
+18:05:28¦Tamalero in¦FRIDAY
+09:58:46¦Tortillas in¦SATURDAY
+12:30:18¦Tortillas in¦SATURDAY
+19:43:53¦Tamalero in¦SATURDAY
+11:05:54¦Tortillas in¦SUNDAY
+11:42:28¦Coco in¦SUNDAY
+19:07:25¦Tamalero in¦SUNDAY
+10:15:09¦Tortillas in¦MONDAY
+11:59:51¦Tortillas in¦MONDAY
+15:52:14¦Tortillas in¦MONDAY
+19:28:20¦Tamalero in¦MONDAY

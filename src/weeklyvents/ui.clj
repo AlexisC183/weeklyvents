@@ -1,8 +1,9 @@
 (ns weeklyvents.ui
   (:require [com.github.alexisc183.forctional.core :refer [surround-with-html]]
             [weeklyvents.event-handlers :refer :all]
+            [weeklyvents.events-file-ui :refer [events-file-frame]]
             [weeklyvents.ui.reusable :refer [auto-vertical-scroll-pane]]
-            [weeklyvents.ui.state :refer :all])
+            [weeklyvents.ui.state :refer [elapsed-time-field event-name-field output-label]])
   (:import [java.awt GridLayout]
            [javax.swing JButton JFrame JLabel JPanel]))
 
@@ -19,6 +20,11 @@
   (doto (new JButton (surround-with-html "Register event"))
     (. addActionListener (new ActionEventConsumer register-event))))
 
+(defn edit-events-file-button
+  []
+  (doto (new JButton (surround-with-html "Edit events file"))
+    (. addActionListener (new ActionEventConsumer (fn [e] (events-file-frame))))))
+
 (defn controls
   []
   (doto (new JPanel)
@@ -27,7 +33,8 @@
     (. add (auto-vertical-scroll-pane event-name-field))
     (. add (field-label "Elapsed time from beginning (mm:ss format):"))
     (. add (auto-vertical-scroll-pane elapsed-time-field))
-    (. add (register-event-button))))
+    (. add (register-event-button))
+    (. add (edit-events-file-button))))
 
 ; END controls UI
 

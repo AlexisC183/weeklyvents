@@ -1,10 +1,10 @@
 (ns weeklyvents.event-handlers
-  (:require [clojure.java.io :refer [file writer]]
+  (:require [clojure.java.io :refer [file reader writer]]
             [clojure.string :refer [trim]]
-            [com.github.alexisc183.forctional.core :refer [matches? throws?]]
+            [com.github.alexisc183.forctional.core :refer [lines matches? throws?]]
             [weeklyvents.runnables :refer :all]
             [weeklyvents.structs :refer [event event-to-serialized-string]]
-            [weeklyvents.ui.state :refer [elapsed-time-field event-name-field]])
+            [weeklyvents.ui.state :refer [elapsed-time-field event-name-field events-file-field]])
   (:import [java.time LocalDate LocalTime]
            [java.time.temporal ChronoUnit]
            [javax.swing JOptionPane]))
@@ -42,3 +42,14 @@
   [e]
   (doto (new Thread read-on-loop)
     (. start)))
+
+(defn read-events-file
+  [e]
+  (with-open [reader_ (reader (file "events.txt"))]
+    (. events-file-field (setText (->> (lines reader_)
+                                       (reduce #(str %1 %2 \newline) ""))))))
+
+(defn update-events-file
+  [e]
+  (with-open [writer_ (writer (file "events.txt"))]
+    (. writer_ (write (. events-file-field getText)))))
