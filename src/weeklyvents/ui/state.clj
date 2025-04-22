@@ -11,7 +11,7 @@
 
 ; BEGIN output UI
 
-; MUTATED AT weeklyvents.runnables$read-on-loop
+; MUTATED AT weeklyvents.event_handlers$read-events-file
 (def output-label (doto (new JLabel)
                         (. setVerticalAlignment JLabel/TOP)))
 

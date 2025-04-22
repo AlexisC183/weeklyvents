@@ -1,1 +1,0 @@
-["^ ","~$register-event",["^ ","~:row",12,"~:col",1,"~:fixed-arities",["~#set",[1]],"~:name","^0","~:ns","~$weeklyvents.event-handlers","~:top-ns","^7","~:type","~:fn"],"~$start-reading-loop",["^ ","^1",41,"^2",1,"^3",["^4",[1]],"^5","^;","^6","^7","^8","^7","^9","^:"],"~:filename","src/weeklyvents/event_handlers.clj"]
