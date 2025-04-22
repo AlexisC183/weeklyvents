@@ -5,3 +5,7 @@
 (defn -main
   [& args]
   (main-frame))
+
+(defn dame-uno
+  []
+  1)
