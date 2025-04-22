@@ -15,11 +15,11 @@
   [{initial-time :initial-time
     name :name
     initial-day-of-week :initial-day-of-week}]
-  (str initial-time \u001f name \u001f initial-day-of-week))
+  (str initial-time \¦ name \¦ initial-day-of-week))
 
 (defn parse-event
   [string]
-  (let [fields (split string #"\u001f")]
+  (let [fields (split string #"\¦")]
     (if (= (count fields) 3)
       (struct event
               (. (LocalTime/parse (nth fields 0)) (truncatedTo ChronoUnit/SECONDS))
