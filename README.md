@@ -45,8 +45,14 @@ Si la aplicación ha estado mucho tiempo abierta, se puede hacer clic en el bot�
 ### El archivo events.txt
 events.txt es un archivo legible por humanos que es creado al iniciar la aplicación o al hacer clic en el botón "Refresh output" cuando el archivo no existe. Es el archivo donde se registran los eventos y normalmente se encuentra junto al JAR ejecutable en Windows, o en el directorio `~` en Ubuntu.
 
-weeklyvents incluye un editor del archivo events.txt para cuando se desea reparar este archivo o modificar o eliminar algunos eventos registrados.
+weeklyvents incluye un editor del archivo events.txt para cuando se desea reparar este archivo, o modificar o eliminar algunos eventos registrados.
 
-Para abrir dicho editor, hay que hacer clic en el botón "Edit events file":
+Para abrir el editor, hay que hacer clic en el botón "Edit events file":
 
 ![Se muestra una captura de pantalla de la interfaz gráfica principal](https://github.com/AlexisC183/weeklyvents/blob/main/README%20resources/ui.png)
+
+Es importante tener en cuenta que los registros siguen una sintaxis particular y que al final de todos los registros debe existir un salto de línea, para evitar corromper el archivo events.txt.
+
+![Se muestra una captura de pantalla de la interfaz gráfica del editor del archivo events.txt](https://github.com/AlexisC183/weeklyvents/blob/main/README%20resources/events-file-ui.png)
+
+Hacer clic en el botón "Save" para escribir los cambios en el archivo events.txt.
