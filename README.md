@@ -1,44 +1,29 @@
-# weeklyvents
+# weeklyvents: Cómo instalar y usar
+## Requisitos de instalación
+- Sistema operativo: Windows 10 o superior, o Ubuntu Desktop 22.04 LTS (Jammy Jellyfish) o cualquiera de sus derivados en su versión de escritorio
+- Java SE 21
 
-FIXME: description
+## Cómo instalar weeklyvents
+### En Windows
+Una vez descargado el JAR ejecutable, sólo basta con hacer doble clic sobre él para iniciar la aplicación.
+### En Ubuntu
+Abrir la terminal donde se encuentra el JAR ejecutable de weeklyvents: tiene el nombre de weeklyvents-0.1.0-SNAPSHOT-standalone.jar.
 
-## Installation
+Ejecutar el siguiente comando para habilitar el permiso de ejecutar la aplicación libremente:
 
-Download from http://example.com/FIXME.
+    chmod +x weeklyvents-0.1.0-SNAPSHOT-standalone.jar
+    
+Cerrar la terminal.
 
-## Usage
+La aplicación ahora se puede iniciar al hacer doble clic sobre el archivo JAR.
 
-FIXME: explanation
+## Cómo usar weeklyvents
+### Registrar un evento
+En el campo "Event name" introducir un nombre breve y significativo para identificar a un evento ocurrido en algún momento del día de la semana actual:
 
-    $ java -jar weeklyvents-0.1.0-standalone.jar [args]
+![Event name: \[____\]](http://url/to/img.png)
 
-## Options
 
-FIXME: listing of options this app accepts.
 
-## Examples
 
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2025 FIXME
-
-This program and the accompanying materials are made available under the
-terms of the Eclipse Public License 2.0 which is available at
-http://www.eclipse.org/legal/epl-2.0.
-
-This Source Code may also be made available under the following Secondary
-Licenses when the conditions for such availability set forth in the Eclipse
-Public License, v. 2.0 are satisfied: GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or (at your
-option) any later version, with the GNU Classpath Exception which is available
-at https://www.gnu.org/software/classpath/license.html.
+![alt text](http://url/to/img.png)
