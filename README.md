@@ -39,3 +39,14 @@ Al iniciar la aplicación puede que se muestren o no algunos eventos previamente
 weeklyvents solo mostrará aquellos eventos que han ocurrido entre una hora antes y una hora después de iniciada la aplicación, y que corresponden con el día de la semana actual.
 
 ![\[\[Refresh output\]|12:25:31 Llegada de Pablo a la uni\]](https://github.com/AlexisC183/weeklyvents/blob/main/README%20resources/output1.png)
+
+Si la aplicación ha estado mucho tiempo abierta, se puede hacer clic en el botón "Refresh output" para recargar la interfaz de la zona derecha y mostrar los eventos cercanos al día-tiempo actual.
+
+### El archivo events.txt
+events.txt es un archivo legible por humanos que es creado al iniciar la aplicación o al hacer clic en el botón "Refresh output" cuando el archivo no existe. Es el archivo donde se registran los eventos y normalmente se encuentra junto al JAR ejecutable en Windows, o en el directorio `~` en Ubuntu.
+
+weeklyvents incluye un editor del archivo events.txt para cuando se desea reparar este archivo o modificar o eliminar algunos eventos registrados.
+
+Para abrir dicho editor, hay que hacer clic en el botón "Edit events file":
+
+![Se muestra una captura de pantalla de la interfaz gráfica principal](https://github.com/AlexisC183/weeklyvents/blob/main/README%20resources/ui.png)
