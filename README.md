@@ -35,3 +35,7 @@ Hacer clic en el botón "Register event" para registrar el evento:
 Al iniciar la aplicación puede que se muestren o no algunos eventos previamente registrados en la zona derecha de la interfaz gráfica:
 
 ![\[====|12:25:31 Llegada de Pablo a la uni\]](https://github.com/AlexisC183/weeklyvents/blob/main/README%20resources/output.png)
+
+weeklyvents solo mostrará aquellos eventos que han ocurrido entre una hora antes y una hora después de iniciada la aplicación, y que corresponden con el día de la semana actual.
+
+![\[\[Refresh output\]|12:25:31 Llegada de Pablo a la uni\]](https://github.com/AlexisC183/weeklyvents/blob/main/README%20resources/outputx.png)
