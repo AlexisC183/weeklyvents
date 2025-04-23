@@ -30,3 +30,8 @@ En el campo "Elapsed time from beginning (mm:ss format)" introducir cuántos min
 Hacer clic en el botón "Register event" para registrar el evento:
 
 ![\[Register event\]](https://github.com/AlexisC183/weeklyvents/blob/main/README%20resources/register-event.png)
+
+### Visualizar eventos
+Al iniciar la aplicación puede que se muestren o no algunos eventos previamente registrados en la zona derecha de la interfaz gráfica:
+
+![\[====|12:25:31 Llegada de Pablo a la uni\]](https://github.com/AlexisC183/weeklyvents/blob/main/README%20resources/output.png)
