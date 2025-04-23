@@ -25,4 +25,8 @@ En el campo "Event name" introducir un nombre breve y significativo para identif
 
 En el campo "Elapsed time from beginning (mm:ss format)" introducir cuántos minutos y segundos han transcurrido desde que se produjo el evento, con dos dígitos para cada unidad temporal separada por dos puntos. Esto es necesario para dar tiempo al usuario a registrar dicho evento con precisión:
 
-![Elapsed time from beginning (mm:ss format): \[01:20\]](https://github.com/AlexisC183/weeklyvents/blob/main/README%20resources/elapsed-timex.png)
+![Elapsed time from beginning (mm:ss format): \[01:20\]](https://github.com/AlexisC183/weeklyvents/blob/main/README%20resources/elapsed-time.png)
+
+Hacer clic en el botón "Register event" para registrar el evento:
+
+![\[Register event\]](https://github.com/AlexisC183/weeklyvents/blob/main/README%20resources/register-event.png)
