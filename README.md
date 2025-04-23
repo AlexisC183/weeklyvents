@@ -21,7 +21,7 @@ La aplicación ahora se puede iniciar al hacer doble clic sobre el archivo JAR.
 ### Registrar un evento
 En el campo "Event name" introducir un nombre breve y significativo para identificar a un evento ocurrido en algún momento del día de la semana actual:
 
-![Event name: \[____\]](http://url/to/img.png)
+![Event name: \[Llegada de Pablo a la uni\]](https://github.com/AlexisC183/weeklyvents/README%20resources/event-name.pngx)
 
 
 
