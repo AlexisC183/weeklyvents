@@ -5,6 +5,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'echo +++++ EJECUTANDO PIPELINE +++++'
+                sh 'ls'
             }
         }
     }
