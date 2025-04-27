@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="4.3">
+  <file name="src/weeklyvents/core.clj">
+    <error line="6" column="6" severity="warning" message="unused binding args" source="clj-kondo"/>
+  </file>
+  <file name="src/weeklyvents/event_handlers.clj">
+    <error line="5" column="41" severity="warning" message="use alias or :refer [event-to-serialized-string event-to-string parse-event]" source="clj-kondo"/>
+    <error line="6" column="42" severity="warning" message="use alias or :refer [elapsed-time-field event-name-field events-file-field output-label]" source="clj-kondo"/>
+    <error line="12" column="4" severity="warning" message="unused binding e" source="clj-kondo"/>
+    <error line="30" column="52" severity="error" message="Unresolved symbol: event" source="clj-kondo"/>
+    <error line="41" column="4" severity="warning" message="unused binding e" source="clj-kondo"/>
+    <error line="67" column="28" severity="warning" message="unused binding e" source="clj-kondo"/>
+    <error line="71" column="4" severity="warning" message="unused binding e" source="clj-kondo"/>
+    <error line="77" column="4" severity="warning" message="unused binding e" source="clj-kondo"/>
+  </file>
+  <file name="src/weeklyvents/events_file_ui.clj">
+    <error line="4" column="45" severity="warning" message="use alias or :refer [auto-vertical-scroll-pane]" source="clj-kondo"/>
+    <error line="12" column="31" severity="error" message="Unresolved symbol: ActionEventConsumer" source="clj-kondo"/>
+    <error line="21" column="31" severity="error" message="Unresolved symbol: WindowOpenedConsumer" source="clj-kondo"/>
+  </file>
+  <file name="src/weeklyvents/structs.clj">
+    <error line="7" column="12" severity="error" message="Unresolved symbol: event" source="clj-kondo"/>
+  </file>
+  <file name="src/weeklyvents/ui.clj">
+    <error line="3" column="48" severity="warning" message="use alias or :refer [read_ register-event]" source="clj-kondo"/>
+    <error line="15" column="31" severity="error" message="Unresolved symbol: ActionEventConsumer" source="clj-kondo"/>
+    <error line="31" column="56" severity="warning" message="unused binding e" source="clj-kondo"/>
+    <error line="65" column="31" severity="error" message="Unresolved symbol: WindowOpenedConsumer" source="clj-kondo"/>
+  </file>
+</checkstyle>
+

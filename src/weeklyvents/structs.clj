@@ -4,7 +4,7 @@
            [java.time DayOfWeek LocalTime]
            [java.time.temporal ChronoUnit]))
 
-(defstruct event :initial-time :name :initial-day-of-week)
+(defrecord event [initial-time name initial-day-of-week])
 
 (defn event-to-string
   [{initial-time :initial-time
@@ -21,8 +21,8 @@
   [string]
   (let [fields (split string #"\¦")]
     (if (= (count fields) 3)
-      (struct event
-              (. (LocalTime/parse (nth fields 0)) (truncatedTo ChronoUnit/SECONDS))
-              (nth fields 1)
-              (DayOfWeek/valueOf (nth fields 2)))
+      (new event
+           (. (LocalTime/parse (nth fields 0)) (truncatedTo ChronoUnit/SECONDS))
+           (nth fields 1)
+           (DayOfWeek/valueOf (nth fields 2)))
       (throw (new FormatException)))))

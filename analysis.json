@@ -1,0 +1,18 @@
+src/weeklyvents/core.clj:6:6: warning: unused binding args
+src/weeklyvents/event_handlers.clj:5:41: warning: use alias or :refer [event-to-serialized-string event-to-string parse-event]
+src/weeklyvents/event_handlers.clj:6:42: warning: use alias or :refer [elapsed-time-field event-name-field events-file-field output-label]
+src/weeklyvents/event_handlers.clj:12:4: warning: unused binding e
+src/weeklyvents/event_handlers.clj:30:52: error: Unresolved symbol: event
+src/weeklyvents/event_handlers.clj:41:4: warning: unused binding e
+src/weeklyvents/event_handlers.clj:67:28: warning: unused binding e
+src/weeklyvents/event_handlers.clj:71:4: warning: unused binding e
+src/weeklyvents/event_handlers.clj:77:4: warning: unused binding e
+src/weeklyvents/events_file_ui.clj:4:45: warning: use alias or :refer [auto-vertical-scroll-pane]
+src/weeklyvents/events_file_ui.clj:12:31: error: Unresolved symbol: ActionEventConsumer
+src/weeklyvents/events_file_ui.clj:21:31: error: Unresolved symbol: WindowOpenedConsumer
+src/weeklyvents/structs.clj:7:12: error: Unresolved symbol: event
+src/weeklyvents/ui.clj:3:48: warning: use alias or :refer [read_ register-event]
+src/weeklyvents/ui.clj:15:31: error: Unresolved symbol: ActionEventConsumer
+src/weeklyvents/ui.clj:31:56: warning: unused binding e
+src/weeklyvents/ui.clj:65:31: error: Unresolved symbol: WindowOpenedConsumer
+linting took 291ms, errors: 6, warnings: 11

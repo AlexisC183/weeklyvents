@@ -1,10 +1,11 @@
 (ns weeklyvents.events-file-ui
   (:require [com.github.alexisc183.forctional.core :refer [surround-with-html]]
             [weeklyvents.event-handlers :refer [read-events-file update-events-file]]
-            [weeklyvents.ui.reusable :refer :all]
+            [weeklyvents.ui.reusable :refer [auto-vertical-scroll-pane]]
             [weeklyvents.ui.state :refer [events-file-field]])
   (:import [java.awt BorderLayout]
-           [javax.swing JButton JFrame]))
+           [javax.swing JButton JFrame]
+           [weeklyvents ActionEventConsumer WindowOpenedConsumer]))
 
 (defn save-button
   []

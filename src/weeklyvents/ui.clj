@@ -1,11 +1,12 @@
 (ns weeklyvents.ui
   (:require [com.github.alexisc183.forctional.core :refer [surround-with-html]]
-            [weeklyvents.event-handlers :refer :all]
+            [weeklyvents.event-handlers :refer [read_ register-event]]
             [weeklyvents.events-file-ui :refer [events-file-frame]]
             [weeklyvents.ui.reusable :refer [auto-vertical-scroll-pane]]
             [weeklyvents.ui.state :refer [elapsed-time-field event-name-field output-label]])
   (:import [java.awt GridLayout]
-           [javax.swing JButton JFrame JLabel JPanel]))
+           [javax.swing JButton JFrame JLabel JPanel]
+           [weeklyvents ActionEventConsumer WindowOpenedConsumer]))
 
 ; BEGIN controls UI
 
@@ -28,7 +29,7 @@
 (defn edit-events-file-button
   []
   (doto (new JButton (surround-with-html "Edit events file"))
-    (. addActionListener (new ActionEventConsumer (fn [e] (events-file-frame))))))
+    (. addActionListener (new ActionEventConsumer (fn [_] (events-file-frame))))))
 
 (defn controls
   []

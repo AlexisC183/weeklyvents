@@ -1,3 +1,5 @@
+package weeklyvents;
+
 import clojure.lang.IFn;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;

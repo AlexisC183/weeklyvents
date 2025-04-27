@@ -1,3 +1,5 @@
+package weeklyvents;
+
 import clojure.lang.IFn;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

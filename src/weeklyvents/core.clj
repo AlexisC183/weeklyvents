@@ -3,5 +3,5 @@
   (:gen-class))
 
 (defn -main
-  [& args]
+  [& _]
   (main-frame))

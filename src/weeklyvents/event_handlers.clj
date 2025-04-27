@@ -2,14 +2,15 @@
   (:require [clojure.java.io :refer [file reader writer]]
             [clojure.string :refer [trim]]
             [com.github.alexisc183.forctional.core :refer [lines matches? surround-with-html throws? within-closed-range?]]
-            [weeklyvents.structs :refer :all]
-            [weeklyvents.ui.state :refer :all])
+            [weeklyvents.structs :refer [event-to-serialized-string event-to-string parse-event]]
+            [weeklyvents.ui.state :refer [elapsed-time-field event-name-field events-file-field output-label]])
   (:import [java.time LocalDate LocalTime]
            [java.time.temporal ChronoUnit]
-           [javax.swing JOptionPane]))
+           [javax.swing JOptionPane]
+           [weeklyvents.structs event]))
 
 (defn register-event
-  [e]
+  [_]
   (let [event-name (. event-name-field getText)
         elapsed-time-raw (. elapsed-time-field getText)]
     (cond
@@ -17,28 +18,29 @@
       (or
        (empty? (trim event-name))
        (empty? (trim elapsed-time-raw))) nil
-      
+
       ; Validating the elapsed time
       (or
        (not (matches? elapsed-time-raw #"^\d\d:\d\d$"))
        (throws? (fn [] (LocalTime/parse (str "00:" elapsed-time-raw))))) (JOptionPane/showMessageDialog elapsed-time-field
-                                                                                                    "Illegal elapsed time format"
-                                                                                                    "Illegal format"
-                                                                                                    JOptionPane/WARNING_MESSAGE)
+                                                                                                        "Illegal elapsed time format"
+                                                                                                        "Illegal format"
+                                                                                                        JOptionPane/WARNING_MESSAGE)
+      
       :else (with-open [writer_ (writer (file "events.txt") :append true)]
               (let [elapsed-time (LocalTime/parse (str "00:" elapsed-time-raw))]
-                (. writer_ (write (str (-> (struct event
-                                                   (-> (LocalTime/now)
-                                                       (.truncatedTo ChronoUnit/SECONDS)
-                                                       (.minusMinutes (. elapsed-time getMinute))
-                                                       (.minusSeconds (. elapsed-time getSecond)))
-                                                   event-name
-                                                   (. (LocalDate/now) getDayOfWeek))
+                (. writer_ (write (str (-> (new event
+                                                (-> (LocalTime/now)
+                                                    (.truncatedTo ChronoUnit/SECONDS)
+                                                    (.minusMinutes (. elapsed-time getMinute))
+                                                    (.minusSeconds (. elapsed-time getSecond)))
+                                                event-name
+                                                (. (LocalDate/now) getDayOfWeek))
                                            (event-to-serialized-string)) \newline))))))))
 
 
 (defn read_
-  [e]
+  [_]
   (let [events-file (file "events.txt")]
     (if (. events-file exists)
       (with-open [reader_ (reader events-file)]
@@ -64,16 +66,16 @@
                                             (map event-to-string)
                                             (reduce (fn [f s] (str f "<br>" s)))
                                             (surround-with-html))))))
-          (catch Exception e (. output-label (setText (surround-with-html "events.txt may be corrupted"))))))
+          (catch Exception _ (. output-label (setText (surround-with-html "events.txt may be corrupted"))))))
       (. events-file createNewFile))))
 
 (defn read-events-file
-  [e]
+  [_]
   (with-open [reader_ (reader (file "events.txt"))]
     (. events-file-field (setText (->> (lines reader_)
                                        (reduce #(str %1 %2 \newline) ""))))))
 
 (defn update-events-file
-  [e]
+  [_]
   (with-open [writer_ (writer (file "events.txt"))]
     (. writer_ (write (. events-file-field getText)))))
